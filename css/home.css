@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+*{
+    margin:5px;
+}
+.logo{
+    size: 500vh;
+}
+.navBar{
+    font-family: poppins;
+    display: flex;
+    justify-content: space-between;
+    color:#113f61;
+
+}
+.navBar2{
+    font-family: poppins;
+    font-size: larger;
+    display: flex;
+    justify-content: space-evenly;
+    color:#113f61;
+
+}
