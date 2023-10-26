@@ -1,17 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 *{
     margin:5px;
+    
 }
 .logo{
-    size: 500vh;
+    size: 500px;
+    width:500px;
+    height:500px;
 }
 .navBar{
     font-family: poppins;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     color:#113f61;
-
+    margin-bottom: 30px;
+}
+h3{
+    font-family: poppins, sans-serif;
 }
 .navBar2{
     font-family: poppins;
@@ -19,5 +25,55 @@
     display: flex;
     justify-content: space-evenly;
     color:#113f61;
+    margin-bottom: 30px;
 
+}
+
+.navBar2 button{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:#113f61;
+    background-color: #D8C690;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    width: 200px;
+    height: 100px;
+    flex-shrink: 0;
+    margin: 0.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: all 0.3rem ease 0;
+    align-items: flex-end;
+}
+.produtos{
+    background-color: #EFE1B7;
+    border-radius: 0.5rem;
+    padding:0.5rem 1.5rem;
+    margin: 12px;
+    width: 15rem;
+    align-items:self-end;
+    font-family: 'Montserrat', sans-serif;
+}
+.destaque{
+    display: flex;
+    flex-direction: row ;
+}
+input{
+    width: 10rem;
+    height: 38px;
+    border-radius: 15px;
+    background: rgba(25, 91, 140, 0.70);
+    padding-left: 15px;
+    color: #fff;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: Poppins, sans-serif;
+
+}
+a{
+    font-family: poppins, sans-serif;
+    color:#113f61;
+    cursor:pointer;
 }
