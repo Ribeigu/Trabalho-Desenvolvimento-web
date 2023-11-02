@@ -52,7 +52,10 @@ button{
     width: 100%;
     background: #FFF;
     border-radius: 15px;
-
+    color:#195B8C;
+}
+.inputs p{
+    color: rgba(25, 91, 140, 0.70);
 }
 .controle{
     width: 50%;
