@@ -1,0 +1,15 @@
+*{
+    display: flex;
+    flex-direction: column;
+}
+.reserva{
+    display: flex;
+    
+}
+.navBar{
+    font-family: poppins;
+    display: flex;
+    justify-content: space-around;
+    color:#113f61;
+    margin-bottom: 30px;
+}
