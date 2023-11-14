@@ -1,0 +1,15 @@
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 4px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+tr.highlight th {
+    background-color: #00BFFF;
+}
