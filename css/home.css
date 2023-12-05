@@ -5,9 +5,8 @@
     
 }
 .logo{
-    size: 500px;
-    width:500px;
-    height:500px;
+    width: 10vh;
+
 }
 .navBar{
     font-family: poppins;
@@ -59,7 +58,7 @@ h3{
     flex-direction: row ;
 }
 input{
-    width: 10rem;
+    width: 30rem;
     height: 38px;
     border-radius: 15px;
     background: rgba(25, 91, 140, 0.70);
