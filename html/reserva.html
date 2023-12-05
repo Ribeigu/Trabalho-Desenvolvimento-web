@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" src="../css/reserva.css">
+    <script language="javascript" src="../Js/reserva.js"></script>
+    <title>Reserva</title>
+</head>
+<body>
+    <div class="reserva">
+        <p>Escolha o periodo de sua reserva: </p>
+        <div>
+            <p>Entrada</p>
+            <input type="date" class="entrada" value="Entrada">
+        </div>
+        <div>
+        <p>Saída</p>
+        <input type="date" class="saida" value="Saída">
+        </div>
+        <div class="obs">
+            <h3>Seu pet precisa de algum cuidado especial?</h3>
+            <form>
+                <p>Ele toma alguma medicação?</p>
+                <input type="radio">Não</input>
+                <input type="radio">Sim</input>
+                <p>Necessita de algum cuidado especial?</p>
+                <input type="radio">Não</input>
+                <input type="radio">Sim</input>
+                    <div class="positivo">
+                    <p>Se sim, quais?</p><textarea rows="5" cols="40"></textarea>
+                    </div>
+                <br>
+                <button onclick="alert('Sua reserva foi efetuada com sucesso!!')">Fazer a reserva</button>
+                <!-- colocar um popup falando: sua reserva foi feita com sucesso -->
+            </form>
+        </div>
+    </div>
+</body>
+</html>

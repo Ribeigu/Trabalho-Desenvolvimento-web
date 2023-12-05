@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+*{
+    display: flex;
+    flex-direction: column;
+    font-family: poppins, sans-serif;
+}
+.logo{
+    width: 10vh;
+}
+.reserva{
+    display: flex;
+    
+}
+.navBar input{
+    width: 30rem;
+    height: 38px;
+    border-radius: 15px;
+    background: rgba(25, 91, 140, 0.70);
+    padding-left: 15px;
+    color: #fff;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: Poppins, sans-serif;
+
+}
+.navBar{
+    font-family: poppins;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color:#113f61;
+    margin-bottom: 30px;
+}
