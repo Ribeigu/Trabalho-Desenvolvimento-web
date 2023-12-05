@@ -49,16 +49,18 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 50%;
     background: #FFF;
     border-radius: 15px;
     color:#195B8C;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 .inputs p{
     color: rgba(25, 91, 140, 0.70);
 }
 .controle{
-    width: 50%;
+    width: 80%;
 }
 .imagem{
     width: 100%;
